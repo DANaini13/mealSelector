@@ -25,9 +25,9 @@ class AddViewController: UIViewController {
     
 
     @IBAction func add() {
-        if textField.text == nil
+        if textField.text == ""
         {
-            nameTitle.text = "reinput!!"
+            nameTitle.text = "input again!!"
             return
         }
         data.addRestrant(textField.text!)
